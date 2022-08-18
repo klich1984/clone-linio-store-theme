@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#04-section-home-tech": {
+    "title": "home-tech-section",
+    "children": ["flex-layout.col#tech-container"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#tech-container": {
+    "title": "Tech home container",
+    "children": [
+      "rich-text#tech-home-title",
+      "rich-text#tech-home-img-one",
+      "flex-layout.row#tech-home-imgs-bottom"
+    ]
+  },
+  "rich-text#tech-home-title": {
+    "title": "Tech home Title",
+    "props": {
+      "blockClass": ["tech-home-title"],
+      "font": "t-body",
+      "text": "Tecnología para tu hogar",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#tech-home-img-one": {
+    "title": "Image one Tech Home",
+    "props": {
+      "blockClass": ["tech-home-img-img-one"],
+      "font": "t-body",
+      "text": "Imagen 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#tech-home-imgs-bottom": {
+    "title": "Tech home Container images botton",
+    "children": [
+      "flex-layout.col#tech-home-img-two",
+      "flex-layout.col#tech-home-img-three"
+    ],
+    "props": {
+      "blockClass": ["tech-home-img-bottom"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#tech-home-img-two": {
+    "title": "Container left Tech home bottom",
+    "children": ["rich-text#tech-home-img-two"],
+    "props": {
+      "blockClass": ["tech-home-img-two"]
+    }
+  },
+  "rich-text#tech-home-img-two": {
+    "title": "Image left Tech home bottom",
+    "props": {
+      "blockClass": ["tech-home-img-two"],
+      "font": "t-body",
+      "text": "Imagen 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#tech-home-img-three": {
+    "title": "Conatiner Right Tech home bottom",
+    "children": ["rich-text#tech-home-img-three"],
+    "props": {
+      "blockClass": ["tech-home-img-three"]
+    }
+  },
+  "rich-text#tech-home-img-three": {
+    "title": "Image right Tech home bottom",
+    "props": {
+      "blockClass": ["tech-home-img-three"],
+      "font": "t-body",
+      "text": "Imagen tres",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

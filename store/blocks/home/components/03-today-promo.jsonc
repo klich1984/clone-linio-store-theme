@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#03-section-promo-today": {
+    "title": "Section today promo ",
+    "children": ["flex-layout.col#promo-today-container"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#promo-today-container": {
+    "title": "container today promo",
+    "children": ["rich-text#promo-today-img"]
+  },
+  "rich-text#promo-today-img": {
+    "title": "Aqui va la imagen de la promocion del día",
+    "props": {
+      "blockClass": ["promo-today-img"],
+      "font": "t-body",
+      "text": "Imagen de promocion del día",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

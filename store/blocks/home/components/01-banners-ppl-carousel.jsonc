@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#01-carrousels-home-ppl": {
+    "title": "Section one Carrousels ppl",
+    "children": ["flex-layout.col#container-carrousels-home-ppl"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#container-carrousels-home-ppl": {
+    "title": "Container Carrousels",
+    "children": [
+      "rich-text#carrousel-banners",
+      "rich-text#manual-carrousel-banners"
+    ]
+  },
+  "rich-text#carrousel-banners": {
+    "title": "Aui va el Carusel Principal automatico",
+    "props": {
+      "blockClass": ["carrousel-banners"],
+      "font": "t-body",
+      "text": "Banner principal (Carusel)",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#manual-carrousel-banners": {
+    "title": "Aqui va el carrusel Manual",
+    "props": {
+      "blockClass": ["manual-carrousel-banners"],
+      "font": "t-body",
+      "text": "Banner principal (Carusel manual)",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

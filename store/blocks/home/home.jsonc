@@ -1,0 +1,10 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#01-carrousels-home-ppl",
+      "flex-layout.row#02-section-recommended",
+      "flex-layout.row#03-section-promo-today",
+      "flex-layout.row#04-section-home-tech"
+    ]
+  }
+}
