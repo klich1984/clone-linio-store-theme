@@ -1,0 +1,13 @@
+/* Section one slider Auto */
+.imageElement--banner-top-promo-slider {
+  object-fit: cover;
+  max-width: initial;
+}
+
+.paginationDotsContainer--banner-top-promo-slider {
+  transform: translateY(-12px);
+}
+
+.slideChildrenContainer--banner-top-promo-slider {
+  justify-content: left;
+}

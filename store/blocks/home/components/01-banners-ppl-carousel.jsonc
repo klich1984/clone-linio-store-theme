@@ -1,38 +1,155 @@
 {
-  "flex-layout.row#01-carrousels-home-ppl": {
-    "title": "Section one Carrousels ppl",
-    "children": ["flex-layout.col#container-carrousels-home-ppl"],
+  "flex-layout.row#01-section-one-home-ppl": {
+    "title": "Section one home",
+    "children": ["flex-layout.col#container-section-one-home"],
     "props": {
       "blockClass": "home-section"
     }
   },
-  "flex-layout.col#container-carrousels-home-ppl": {
-    "title": "Container Carrousels",
+  "flex-layout.col#container-section-one-home": {
+    "title": "Container of sections one",
     "children": [
-      "rich-text#carrousel-banners",
-      "rich-text#manual-carrousel-banners"
-    ]
-  },
-  "rich-text#carrousel-banners": {
-    "title": "Aui va el Carusel Principal automatico",
+      "image#banner-top-promo",
+      "list-context.image-list#home-section-one-slider-auto",
+      "flex-layout.row#manual-slider-banners"
+    ],
     "props": {
-      "blockClass": ["carrousel-banners"],
-      "font": "t-body",
-      "text": "Banner principal (Carusel)",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "blockClass": "home-section-one-banner"
     }
   },
-  "rich-text#manual-carrousel-banners": {
-    "title": "Aqui va el carrusel Manual",
+  // Banner one
+  "image#banner-top-promo": {
+    "title": "Banner promo",
     "props": {
-      "blockClass": ["manual-carrousel-banners"],
-      "font": "t-body",
-      "text": "Banner principal (Carusel manual)",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "blockClass": ["banner-top-promo"],
+      "link": {
+        "openNewTab": true,
+        "title": "Solicitudes Falabella",
+        "url": "https://solicitudes.bancofalabella.com.co/retail/landing/linio?detalleClic=cintillocmr"
+      },
+      "src": "https://i.linio.com/cms/e119c2ac-5d4a-11ec-9d14-2a0b5adc9aa9.webp"
+    }
+  },
+  // slider auto
+  "list-context.image-list#home-section-one-slider-auto": {
+    "title": "Slider of Banners Auto",
+    "children": ["slider-layout#home-section-one-slider-auto"],
+    "props": {
+      "height": 231,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://dynamic-yield.linio.com//api/scripts/8767555/images/1c52bf3b2be18__on_bb_consolasvideojuegos-co_1.jpg",
+          "mobileImage": "https://placeimg.com/640/300/tech",
+          "width": "initial",
+          "link": {
+            "url": "/#"
+          }
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://placeimg.com/640/300/nature",
+          "width": "initial",
+          "link": {
+            "url": "/#"
+          }
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://placeimg.com/640/300/people",
+          "width": "initial"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://placeimg.com/640/300/animals",
+          "width": "initial"
+        }
+      ]
+    }
+  },
+  // Slider config
+  "slider-layout#home-section-one-slider-auto": {
+    "title": "Slider Config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": { "timeout": 7000, "stopOnHover": true },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-top-promo-slider"
+    }
+  },
+  // slider Manual
+  "flex-layout.row#manual-slider-banners": {
+    "title": "slider categories manual",
+    "children": ["slider-layout#home-section-one-slider-manual"],
+    "props": {
+      "blockClass": ["manual-carrousel-banners"]
+    }
+  },
+  "slider-layout#home-section-one-slider-manual": {
+    "title": "Container config and sliders manual",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "banner-top-promo-slider",
+      "infinite": false,
+      "usePagination": true,
+      "navigationStep": 1,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 1
+    },
+    "children": [
+      "image#category-one",
+      "image#category-two",
+      "image#category-three",
+      "image#category-four",
+      "image#category-five",
+      "image#category-six"
+    ]
+  },
+  "image#category-one": {
+    "title": "manual slider image categorie 1",
+    "props": {
+      "src": "https://fms.linio.com/4b7520d8-9cff-11e9-8af7-0a586460092c.jpeg"
+    }
+  },
+  "image#category-two": {
+    "title": "manual slider image categorie 2",
+    "props": {
+      "src": "https://fms.linio.com/4cc04a26-9cff-11e9-91b2-0a5864600886.jpeg"
+    }
+  },
+  "image#category-three": {
+    "title": "manual slider image categorie 3",
+    "props": {
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/153c251cffdb3__tsc1_home_co.jpg"
+    }
+  },
+  "image#category-four": {
+    "title": "manual slider image categorie 4",
+    "props": {
+      "src": "https://fms.linio.com/4e64b58e-1567-11ea-87c8-12af826db86d.jpeg"
+    }
+  },
+  "image#category-five": {
+    "title": "manual slider image categorie 5",
+    "props": {
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/ce4084b8733__TS2_deportes.jpg"
+    }
+  },
+  "image#category-six": {
+    "title": "manual slider image categorie 6",
+    "props": {
+      "src": "https://fms.linio.com/cf43db26-9ea7-11e9-aed1-0a5864600886.jpeg"
     }
   }
 }
