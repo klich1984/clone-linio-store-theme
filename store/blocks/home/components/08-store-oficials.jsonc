@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#08-section-store-oficial": {
+    "title": "Store Oficial Container",
+    "children": [
+      "rich-text#store-oficial-title",
+      "rich-text#store-oficial-carpusel"
+    ],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "rich-text#store-oficial-title": {
+    "title": "Store Oficials Title",
+    "props": {
+      "blockClass": ["store-oficial-title"],
+      "font": "t-body",
+      "text": "Tiendas Oficiales [Ver mas](/#)",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#store-oficial-carpusel": {
+    "title": "Store oficial carousel",
+    "props": {
+      "blockClass": ["store-oficial-carpusel"],
+      "font": "t-body",
+      "text": "Carrusel de las tiendas oficiales",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

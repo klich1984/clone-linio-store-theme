@@ -4,7 +4,16 @@
       "flex-layout.row#01-carrousels-home-ppl",
       "flex-layout.row#02-section-recommended",
       "flex-layout.row#03-section-promo-today",
-      "flex-layout.row#04-section-home-tech"
+      "flex-layout.row#04-section-home-tech",
+      "flex-layout.row#05-section-recommended",
+      "flex-layout.row#06-section-promo-categories",
+      "flex-layout.row#07-section-recommended",
+      "flex-layout.row#08-section-store-oficial",
+      "flex-layout.row#09-section-fad",
+      "flex-layout.row#10-section-recommended-for-home",
+      "flex-layout.row#11-section-vehicles",
+      "flex-layout.row#14-section-banner-falabella",
+      "flex-layout.row#15-section-app-download"
     ]
   }
 }

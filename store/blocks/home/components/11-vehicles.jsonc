@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#11-section-vehicles": {
+    "title": "home-vehicles-section",
+    "children": ["flex-layout.col#vehicles-container"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#vehicles-container": {
+    "title": "vehicles home container",
+    "children": [
+      "rich-text#vehicles-home-title",
+      "rich-text#vehicles-home-img-one",
+      "flex-layout.row#vehicles-home-imgs-bottom"
+    ]
+  },
+  "rich-text#vehicles-home-title": {
+    "title": "vehicles home Title",
+    "props": {
+      "blockClass": ["vehicles-home-title"],
+      "font": "t-body",
+      "text": "TODO PARA TU CARRO Y MOTO",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#vehicles-home-img-one": {
+    "title": "Image one vehicles Home",
+    "props": {
+      "blockClass": ["vehicles-home-img-one"],
+      "font": "t-body",
+      "text": "Imagen 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#vehicles-home-imgs-bottom": {
+    "title": "vehicles home Container images botton",
+    "children": [
+      "flex-layout.col#vehicles-home-img-two",
+      "flex-layout.col#vehicles-home-img-three"
+    ],
+    "props": {
+      "blockClass": ["vehicles-home-img-bottom"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#vehicles-home-img-two": {
+    "title": "Container left vehicles home bottom",
+    "children": ["rich-text#vehicles-home-img-two"],
+    "props": {
+      "blockClass": ["vehicles-home-img-two"]
+    }
+  },
+  "rich-text#vehicles-home-img-two": {
+    "title": "Image left vehicles home bottom",
+    "props": {
+      "blockClass": ["vehicles-home-img-two"],
+      "font": "t-body",
+      "text": "Imagen 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#vehicles-home-img-three": {
+    "title": "Conatiner Right vehicles home bottom",
+    "children": ["rich-text#vehicles-home-img-three"],
+    "props": {
+      "blockClass": ["vehicles-home-img-three"]
+    }
+  },
+  "rich-text#vehicles-home-img-three": {
+    "title": "Image right vehicles home bottom",
+    "props": {
+      "blockClass": ["vehicles-home-img-three"],
+      "font": "t-body",
+      "text": "Imagen tres",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

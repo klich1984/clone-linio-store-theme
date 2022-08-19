@@ -5,3 +5,13 @@
   border: 2px solid #000;
   margin-bottom: 1.5rem;
 }
+
+/* Section fad */
+.flexCol--container-bottom-fad {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexCol--container-bottom-fad .flexColChild--container-bottom-fad {
+  width: 50%;
+}

@@ -8,7 +8,10 @@
   },
   "flex-layout.col#recommended-container": {
     "title": "container recommended",
-    "children": ["rich-text#title-recommended"]
+    "children": [
+      "rich-text#title-recommended",
+      "rich-text#carrousel-recommended"
+    ]
   },
   "rich-text#title-recommended": {
     "title": "title recommended section",
@@ -26,7 +29,7 @@
     "props": {
       "blockClass": ["carrousel-recommended"],
       "font": "t-body",
-      "text": "Carrusel to products recommended ",
+      "text": "Carrusel de productos recomendados",
       "textAlignment": "CENTER",
       "textColor": "c-on-base",
       "textPosition": "CENTER"

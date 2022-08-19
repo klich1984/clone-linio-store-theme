@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#14-section-banner-falabella": {
+    "title": "Banner falabella Container",
+    "children": [
+      "rich-text#title-banner-falabella",
+      "rich-text#banner-falabella"
+    ],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "rich-text#title-banner-falabella": {
+    "title": "Banner falabella Title",
+    "props": {
+      "blockClass": ["title-banner-falabella"],
+      "font": "t-body",
+      "text": "BANCO FALABELLA",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#banner-falabella": {
+    "title": "Store oficial carousel",
+    "props": {
+      "blockClass": ["banner-falabella"],
+      "font": "t-body",
+      "text": "Banner de Falabella",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

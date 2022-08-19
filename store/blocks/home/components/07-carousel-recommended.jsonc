@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#07-section-recommended": {
+    "title": "Section to recommended inspired your navigation",
+    "children": ["flex-layout.col#recommended-container"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#recommended-container-inspired": {
+    "title": "container recommended inspired your navigation",
+    "children": [
+      "rich-text#title-recommended-inspired",
+      "rich-text#carrousel-recommended-inspired"
+    ]
+  },
+  "rich-text#title-recommended-inspired": {
+    "title": "title recommended section inspired your navigation",
+    "props": {
+      "blockClass": ["title-recommended-inspired"],
+      "font": "t-body",
+      "text": "Inspirado en tu navegación 🧭​",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#carrousel-recommended-inspired": {
+    "title": "Aqui va el carrusel de Inspirado en tu navegación",
+    "props": {
+      "blockClass": ["carrousel-recommended-inspired"],
+      "font": "t-body",
+      "text": "Carrusel de productos inspirado en tu navegación",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

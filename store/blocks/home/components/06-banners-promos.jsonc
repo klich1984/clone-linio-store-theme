@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#06-section-promo-categories": {
+    "children": ["flex-layout.col#container-promo.categories"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#container-promo.categories": {
+    "children": [
+      "flex-layout.row#banner-promo-one",
+      "flex-layout.row#banner-promo-two",
+      "flex-layout.row#banner-promo-three"
+    ]
+  },
+  "flex-layout.row#banner-promo-one": {
+    "children": ["rich-text#banner-promo-one"],
+    "props": {
+      "blockClass": ["banner-promo-one"]
+    }
+  },
+  "rich-text#banner-promo-one": {
+    "props": {
+      "blockClass": ["banner-promo-one"],
+      "font": "t-body",
+      "text": "Banner promoción 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#banner-promo-two": {
+    "children": ["rich-text#banner-promo-two"],
+    "props": {
+      "blockClass": ["banner-promo-two"]
+    }
+  },
+  "rich-text#banner-promo-two": {
+    "props": {
+      "blockClass": ["banner-promo-two"],
+      "font": "t-body",
+      "text": "Banner promoción 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#banner-promo-three": {
+    "children": ["rich-text#banner-promo-three"],
+    "props": {
+      "blockClass": ["banner-promo-three"]
+    }
+  },
+  "rich-text#banner-promo-three": {
+    "props": {
+      "blockClass": ["banner-promo-three"],
+      "font": "t-body",
+      "text": "Banner promoción 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

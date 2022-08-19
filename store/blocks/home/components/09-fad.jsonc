@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#09-section-fad": {
+    "title": "Section fad container",
+    "children": [
+      "rich-text#banner-fad",
+      "flex-layout.col#container-bottom-fad"
+    ],
+    "props": {
+      "blockClass": ["home-section"]
+    }
+  },
+  "rich-text#banner-fad": {
+    "title": "Banner section fad",
+    "props": {
+      "blockClass": ["banner-fad"],
+      "font": "t-body",
+      "text": "Banner Novedad 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#container-bottom-fad": {
+    "title": "Container section fad bottom",
+    "children": [
+      "rich-text#fad-item-one",
+      "rich-text#fad-item-one",
+      "rich-text#fad-item-one",
+      "rich-text#fad-item-one"
+    ],
+    "props": {
+      "blockClass": ["container-bottom-fad"]
+    }
+  },
+  "rich-text#fad-item-one": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "blockClass": ["fad-item-one"],
+      "font": "t-body",
+      "text": "Item 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

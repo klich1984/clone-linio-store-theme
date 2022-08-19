@@ -28,7 +28,7 @@
   "rich-text#tech-home-img-one": {
     "title": "Image one Tech Home",
     "props": {
-      "blockClass": ["tech-home-img-img-one"],
+      "blockClass": ["tech-home-img-one"],
       "font": "t-body",
       "text": "Imagen 1",
       "textAlignment": "CENTER",
