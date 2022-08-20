@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#07-section-recommended": {
+  "flex-layout.row#phone__section--seven": {
     "title": "Section to recommended inspired your navigation",
     "children": ["flex-layout.col#recommended-container"],
     "props": {

@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#01-section-one-home-ppl": {
+  "flex-layout.row#phone__home--section-one": {
     "title": "Section one home",
     "children": ["flex-layout.col#container-section-one-home"],
     "props": {

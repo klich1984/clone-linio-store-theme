@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#15-section-app-download": {
+  "flex-layout.row#phone__section--fifteen": {
     "title": "App download Container",
     "children": ["rich-text#title-app-download", "rich-text#app-download"],
     "props": {

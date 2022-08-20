@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#03-section-promo-today": {
+  "flex-layout.row#phone__section--three": {
     "title": "Section today promo ",
     "children": ["flex-layout.col#promo-today-container"],
     "props": {

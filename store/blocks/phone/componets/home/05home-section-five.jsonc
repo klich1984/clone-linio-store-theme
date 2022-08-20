@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#05-section-recommended": {
+  "flex-layout.row#phone__section--five": {
     "title": "Section to recommended the Colombia to home",
     "children": ["flex-layout.col#recommended-container-two"],
     "props": {
