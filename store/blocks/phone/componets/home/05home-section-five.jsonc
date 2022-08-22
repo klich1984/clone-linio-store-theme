@@ -1,22 +1,21 @@
 {
-  "flex-layout.row#phone__section--five": {
+  "flex-layout.row#phone__home-section-five": {
     "title": "Section to recommended the Colombia to home",
-    "children": ["flex-layout.col#recommended-container-two"],
+    "children": ["flex-layout.col#recommended-two"],
     "props": {
       "blockClass": "home-section"
     }
   },
-  "flex-layout.col#recommended-container-two": {
+  "flex-layout.col#recommended-two": {
     "title": "container recommended the Colombia to home",
     "children": [
-      "rich-text#title-recommended-two",
-      "rich-text#carrousel-recommended-two"
+      "rich-text#home__recommendede-two--title",
+      "rich-text#home__recommendede-two--carrousel"
     ]
   },
-  "rich-text#title-recommended-two": {
+  "rich-text#home__recommendede-two--title": {
     "title": "title recommended section the Colombia to home",
     "props": {
-      "blockClass": ["title-recommended-two"],
       "font": "t-body",
       "text": "De Colombia y el Mundo a la puerta de tu Casa ✈️",
       "textAlignment": "CENTER",
@@ -24,10 +23,9 @@
       "textPosition": "CENTER"
     }
   },
-  "rich-text#carrousel-recommended-two": {
+  "rich-text#home__recommendede-two--carrousel": {
     "title": "Aqui va el carrusel de recomendados de colombia a la puerta de tu casa",
     "props": {
-      "blockClass": ["carrousel-recommended-two"],
       "font": "t-body",
       "text": "Carrusel de productos recomendados",
       "textAlignment": "CENTER",

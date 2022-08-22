@@ -1,19 +1,18 @@
 {
-  "flex-layout.row#phone__section--three": {
+  "flex-layout.row#phone__home-section-three": {
     "title": "Section today promo ",
-    "children": ["flex-layout.col#promo-today-container"],
+    "children": ["flex-layout.col#phone__home-promo-today"],
     "props": {
       "blockClass": "home-section"
     }
   },
-  "flex-layout.col#promo-today-container": {
+  "flex-layout.col#phone__home-promo-today": {
     "title": "container today promo",
-    "children": ["rich-text#promo-today-img"]
+    "children": ["rich-text#home__promo-today--img"]
   },
-  "rich-text#promo-today-img": {
+  "rich-text#home__promo-today--img": {
     "title": "Aqui va la imagen de la promocion del día",
     "props": {
-      "blockClass": ["promo-today-img"],
       "font": "t-body",
       "text": "Imagen de promocion del día",
       "textAlignment": "CENTER",

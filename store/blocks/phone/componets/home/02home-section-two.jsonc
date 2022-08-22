@@ -1,22 +1,21 @@
 {
-  "flex-layout.row#phone__home--section-two": {
+  "flex-layout.row#phone__home-section-two": {
     "title": "Section to recommended",
-    "children": ["flex-layout.col#recommended-container"],
+    "children": ["flex-layout.col#phone__home--recommended"],
     "props": {
       "blockClass": "home-section"
     }
   },
-  "flex-layout.col#recommended-container": {
+  "flex-layout.col#phone__home--recommended": {
     "title": "container recommended",
     "children": [
-      "rich-text#title-recommended",
-      "rich-text#carrousel-recommended"
+      "rich-text#home__recommended--title",
+      "rich-text#home__recommended--carrousel"
     ]
   },
-  "rich-text#title-recommended": {
+  "rich-text#home__recommended--title": {
     "title": "title recommended section",
     "props": {
-      "blockClass": ["title-recommended"],
       "font": "t-body",
       "text": "Recomendados para ti",
       "textAlignment": "CENTER",
@@ -24,10 +23,9 @@
       "textPosition": "CENTER"
     }
   },
-  "rich-text#carrousel-recommended": {
+  "rich-text#home__recommended--carrousel": {
     "title": "Aqui va el carrusel de recomendados",
     "props": {
-      "blockClass": ["carrousel-recommended"],
       "font": "t-body",
       "text": "Carrusel de productos recomendados",
       "textAlignment": "CENTER",

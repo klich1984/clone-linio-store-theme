@@ -1,13 +1,14 @@
 /* Section one slider Auto */
-.imageElement--banner-top-promo-slider {
+.imageElement--home__section-one--slider-auto {
   object-fit: cover;
-  max-width: initial;
+  max-width : initial;
 }
 
-.paginationDotsContainer--banner-top-promo-slider {
+.paginationDotsContainer--home__section-one--slider-auto {
   transform: translateY(-12px);
 }
 
-.slideChildrenContainer--banner-top-promo-slider {
+.slideChildrenContainer--home__section-one--slider-auto,
+.slideChildrenContainer--home__section-one--slider-manual {
   justify-content: left;
 }

@@ -1,18 +1,17 @@
 {
-  "flex-layout.row#phone__section--nine": {
+  "flex-layout.row#phone__home-section-nine": {
     "title": "Section fad container",
     "children": [
-      "rich-text#banner-fad",
-      "flex-layout.col#container-bottom-fad"
+      "rich-text#phone__home--banner-fad",
+      "flex-layout.col#phone__home--bottom-fad"
     ],
     "props": {
       "blockClass": ["home-section"]
     }
   },
-  "rich-text#banner-fad": {
+  "rich-text#phone__home--banner-fad": {
     "title": "Banner section fad",
     "props": {
-      "blockClass": ["banner-fad"],
       "font": "t-body",
       "text": "Banner Novedad 1",
       "textAlignment": "CENTER",
@@ -20,24 +19,55 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.col#container-bottom-fad": {
+  "flex-layout.col#phone__home--bottom-fad": {
     "title": "Container section fad bottom",
     "children": [
-      "rich-text#fad-item-one",
-      "rich-text#fad-item-one",
-      "rich-text#fad-item-one",
-      "rich-text#fad-item-one"
+      "rich-text#home__bottom-fad--item-one",
+      "rich-text#home__bottom-fad--item-two",
+      "rich-text#home__bottom-fad--item-three",
+      "rich-text#home__bottom-fad--item-four"
     ],
     "props": {
-      "blockClass": ["container-bottom-fad"]
+      "blockClass": ["phone__home--bottom-fad"]
     }
   },
-  "rich-text#fad-item-one": {
+  "rich-text#home__bottom-fad--item-one": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "blockClass": ["fad-item-one"],
+      "font": "t-body",
+      "text": "Item 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__bottom-fad--item-two": {
     "title": "Van las Cards de la seccion Novedades * 4",
     "props": {
       "blockClass": ["fad-item-one"],
       "font": "t-body",
       "text": "Item 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__bottom-fad--item-three": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "font": "t-body",
+      "text": "Item 3",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__bottom-fad--item-four": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "font": "t-body",
+      "text": "Item 4",
       "textAlignment": "CENTER",
       "textColor": "c-on-base",
       "textPosition": "CENTER"

@@ -1,18 +1,17 @@
 {
-  "flex-layout.row#phone__section--eight": {
+  "flex-layout.row#phone__home-section-eight": {
     "title": "Store Oficial Container",
     "children": [
-      "rich-text#store-oficial-title",
-      "rich-text#store-oficial-carpusel"
+      "rich-text#phone__home--store-oficial-title",
+      "rich-text#phone__home--store-oficial-carousel"
     ],
     "props": {
       "blockClass": "home-section"
     }
   },
-  "rich-text#store-oficial-title": {
+  "rich-text#phone__home--store-oficial-title": {
     "title": "Store Oficials Title",
     "props": {
-      "blockClass": ["store-oficial-title"],
       "font": "t-body",
       "text": "Tiendas Oficiales [Ver mas](/#)",
       "textAlignment": "CENTER",
@@ -20,10 +19,9 @@
       "textPosition": "CENTER"
     }
   },
-  "rich-text#store-oficial-carpusel": {
+  "rich-text#phone__home--store-oficial-carousel": {
     "title": "Store oficial carousel",
     "props": {
-      "blockClass": ["store-oficial-carpusel"],
       "font": "t-body",
       "text": "Carrusel de las tiendas oficiales",
       "textAlignment": "CENTER",

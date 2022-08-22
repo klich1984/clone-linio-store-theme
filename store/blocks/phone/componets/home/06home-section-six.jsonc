@@ -1,26 +1,22 @@
 {
-  "flex-layout.row#phone__section--six": {
-    "children": ["flex-layout.col#container-promo.categories"],
+  "flex-layout.row#phone__home-section-six": {
+    "children": ["flex-layout.col#phone__home--category-promo"],
     "props": {
       "blockClass": "home-section"
     }
   },
-  "flex-layout.col#container-promo.categories": {
+  "flex-layout.col#phone__home--category-promo": {
     "children": [
-      "flex-layout.row#banner-promo-one",
-      "flex-layout.row#banner-promo-two",
-      "flex-layout.row#banner-promo-three"
+      "flex-layout.row#home__category-promo--banner-one",
+      "flex-layout.row#home__category-promo--banner-two",
+      "flex-layout.row#home__category-promo--banner-three"
     ]
   },
-  "flex-layout.row#banner-promo-one": {
-    "children": ["rich-text#banner-promo-one"],
-    "props": {
-      "blockClass": ["banner-promo-one"]
-    }
+  "flex-layout.row#home__category-promo--banner-one": {
+    "children": ["rich-text#home__category-promo--img-one"]
   },
-  "rich-text#banner-promo-one": {
+  "rich-text#home__category-promo--img-one": {
     "props": {
-      "blockClass": ["banner-promo-one"],
       "font": "t-body",
       "text": "Banner promoción 1",
       "textAlignment": "CENTER",
@@ -28,15 +24,11 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#banner-promo-two": {
-    "children": ["rich-text#banner-promo-two"],
-    "props": {
-      "blockClass": ["banner-promo-two"]
-    }
+  "flex-layout.row#home__category-promo--banner-two": {
+    "children": ["rich-text#home__category-promo--img-two"]
   },
-  "rich-text#banner-promo-two": {
+  "rich-text#home__category-promo--img-two": {
     "props": {
-      "blockClass": ["banner-promo-two"],
       "font": "t-body",
       "text": "Banner promoción 2",
       "textAlignment": "CENTER",
@@ -44,15 +36,11 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#banner-promo-three": {
-    "children": ["rich-text#banner-promo-three"],
-    "props": {
-      "blockClass": ["banner-promo-three"]
-    }
+  "flex-layout.row#home__category-promo--banner-three": {
+    "children": ["rich-text#home__category-promo--img-three"]
   },
-  "rich-text#banner-promo-three": {
+  "rich-text#home__category-promo--img-three": {
     "props": {
-      "blockClass": ["banner-promo-three"],
       "font": "t-body",
       "text": "Banner promoción 1",
       "textAlignment": "CENTER",

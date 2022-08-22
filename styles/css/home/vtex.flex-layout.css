@@ -1,27 +1,27 @@
 .flexRow--home-section {
   /* max-width: 95%; */
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #000;
+  margin-left  : auto;
+  margin-right : auto;
+  border       : 1px solid #000;
   margin-bottom: 1.5rem;
 }
 
 /* Section one Banner Promo */
-.flexColChild--home-section-one-banner {
-  width: 100%;
-  display: flex;
+.flexColChild--phone__home---section-one {
+  width          : 100%;
+  display        : flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 12px;
-  overflow: hidden;
+  align-items    : center;
+  margin-bottom  : 12px;
+  overflow       : hidden;
 }
 
 /* Section fad */
-.flexCol--container-bottom-fad {
+.flexCol--phone__home--bottom-fad {
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap     : wrap;
 }
 
-.flexCol--container-bottom-fad .flexColChild--container-bottom-fad {
+.flexCol--phone__home--bottom-fad .flexColChild--phone__home--bottom-fad {
   width: 50%;
 }
