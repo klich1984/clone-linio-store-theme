@@ -12,3 +12,8 @@
 .slideChildrenContainer--home__section-one--slider-manual {
   justify-content: left;
 }
+
+/* Section two recommended */
+.sliderTrack--home__recommended--products {
+  gap: 2rem;
+}

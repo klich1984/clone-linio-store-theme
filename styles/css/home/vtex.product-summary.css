@@ -1,0 +1,8 @@
+/* Section two recommended */
+.containerNormal--home__recommended--carousel {
+	background-color: #fff;
+}
+
+.element--home__recommended--carousel {
+	align-items: flex-start;
+}

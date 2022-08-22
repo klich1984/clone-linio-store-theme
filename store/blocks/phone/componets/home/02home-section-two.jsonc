@@ -10,27 +10,73 @@
     "title": "container recommended",
     "children": [
       "rich-text#home__recommended--title",
-      "rich-text#home__recommended--carrousel"
-    ]
+      "list-context.product-list#home__recommended--products"
+    ],
+    "props": {
+      "blockClass": "phone__home--recommended"
+    }
   },
   "rich-text#home__recommended--title": {
     "title": "title recommended section",
     "props": {
+      "blockClass": "home__recommended--title",
       "font": "t-body",
-      "text": "Recomendados para ti",
+      "text": "### Recomendados para ti",
       "textAlignment": "CENTER",
       "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "textPosition": "LEFT"
     }
   },
-  "rich-text#home__recommended--carrousel": {
-    "title": "Aqui va el carrusel de recomendados",
+  // carousel list-context
+  "list-context.product-list#home__recommended--products": {
+    "title": "List Products recommended",
+    "blocks": ["product-summary.shelf#home__recommended--carousel"],
+    "children": ["slider-layout#home__recommended--products"],
     "props": {
-      "font": "t-body",
-      "text": "Carrusel de productos recomendados",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "blockClass": "home__recommended--products"
+    }
+  },
+
+  "product-summary.shelf#home__recommended--carousel": {
+    "title": "Items to display in each product",
+    "children": [
+      "flex-layout.row#home__recommended--product-img",
+      "flex-layout.row#home__recommended--product-description"
+    ],
+    "props": {
+      "blockClass": "home__recommended--carousel"
+    }
+  },
+
+  "flex-layout.row#home__recommended--product-img": {
+    "children": ["product-summary-image"],
+    "props": {
+      "blockClass": ["home__recommended--product-img"]
+    }
+  },
+  "flex-layout.row#home__recommended--product-description": {
+    "children": ["product-summary-name", "product-summary-price"],
+    "props": {
+      "blockClass": ["home__recommended--product-description"]
+    }
+  },
+
+  "slider-layout#home__recommended--products": {
+    "title": "settings Sliders products rcommended",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "usePagination": true,
+      "navigationStep": 1,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 1,
+      "blockClass": "home__recommended--products"
     }
   }
 }
