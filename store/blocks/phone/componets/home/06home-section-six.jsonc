@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#phone__home-section-six": {
+    "children": ["flex-layout.col#phone__home--category-promo"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#phone__home--category-promo": {
+    "children": [
+      "flex-layout.row#home__category-promo--banner-one",
+      "flex-layout.row#home__category-promo--banner-two",
+      "flex-layout.row#home__category-promo--banner-three"
+    ]
+  },
+  "flex-layout.row#home__category-promo--banner-one": {
+    "children": ["rich-text#home__category-promo--img-one"]
+  },
+  "rich-text#home__category-promo--img-one": {
+    "props": {
+      "font": "t-body",
+      "text": "Banner promoción 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home__category-promo--banner-two": {
+    "children": ["rich-text#home__category-promo--img-two"]
+  },
+  "rich-text#home__category-promo--img-two": {
+    "props": {
+      "font": "t-body",
+      "text": "Banner promoción 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home__category-promo--banner-three": {
+    "children": ["rich-text#home__category-promo--img-three"]
+  },
+  "rich-text#home__category-promo--img-three": {
+    "props": {
+      "font": "t-body",
+      "text": "Banner promoción 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

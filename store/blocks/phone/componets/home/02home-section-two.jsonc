@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#phone__home-section-two": {
+    "title": "Section to recommended",
+    "children": ["flex-layout.col#phone__home--recommended"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#phone__home--recommended": {
+    "title": "container recommended",
+    "children": [
+      "rich-text#home__recommended--title",
+      "rich-text#home__recommended--carrousel"
+    ]
+  },
+  "rich-text#home__recommended--title": {
+    "title": "title recommended section",
+    "props": {
+      "font": "t-body",
+      "text": "Recomendados para ti",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__recommended--carrousel": {
+    "title": "Aqui va el carrusel de recomendados",
+    "props": {
+      "font": "t-body",
+      "text": "Carrusel de productos recomendados",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#phone__home-section-fifteen": {
+    "title": "App download Container",
+    "children": [
+      "rich-text#phone__home-app-download-title",
+      "rich-text#phone__home-app-download"
+    ],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "rich-text#phone__home-app-download-title": {
+    "title": "Banner falabella Title",
+    "props": {
+      "font": "t-body",
+      "text": "DESCARGA LA APP",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#phone__home-app-download": {
+    "title": "App download Banner",
+    "props": {
+      "font": "t-body",
+      "text": "Banner de Descarga la APP",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

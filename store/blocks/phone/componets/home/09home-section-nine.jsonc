@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#phone__home-section-nine": {
+    "title": "Section fad container",
+    "children": [
+      "rich-text#phone__home--banner-fad",
+      "flex-layout.col#phone__home--bottom-fad"
+    ],
+    "props": {
+      "blockClass": ["home-section"]
+    }
+  },
+  "rich-text#phone__home--banner-fad": {
+    "title": "Banner section fad",
+    "props": {
+      "font": "t-body",
+      "text": "Banner Novedad 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#phone__home--bottom-fad": {
+    "title": "Container section fad bottom",
+    "children": [
+      "rich-text#home__bottom-fad--item-one",
+      "rich-text#home__bottom-fad--item-two",
+      "rich-text#home__bottom-fad--item-three",
+      "rich-text#home__bottom-fad--item-four"
+    ],
+    "props": {
+      "blockClass": ["phone__home--bottom-fad"]
+    }
+  },
+  "rich-text#home__bottom-fad--item-one": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "blockClass": ["fad-item-one"],
+      "font": "t-body",
+      "text": "Item 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__bottom-fad--item-two": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "blockClass": ["fad-item-one"],
+      "font": "t-body",
+      "text": "Item 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__bottom-fad--item-three": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "font": "t-body",
+      "text": "Item 3",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__bottom-fad--item-four": {
+    "title": "Van las Cards de la seccion Novedades * 4",
+    "props": {
+      "font": "t-body",
+      "text": "Item 4",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

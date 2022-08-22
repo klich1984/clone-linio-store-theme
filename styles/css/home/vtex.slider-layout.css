@@ -1,0 +1,14 @@
+/* Section one slider Auto */
+.imageElement--home__section-one--slider-auto {
+  object-fit: cover;
+  max-width : initial;
+}
+
+.paginationDotsContainer--home__section-one--slider-auto {
+  transform: translateY(-12px);
+}
+
+.slideChildrenContainer--home__section-one--slider-auto,
+.slideChildrenContainer--home__section-one--slider-manual {
+  justify-content: left;
+}

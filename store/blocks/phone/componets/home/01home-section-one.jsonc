@@ -1,0 +1,152 @@
+{
+  "flex-layout.row#phone__home-section-one": {
+    "title": "Section one home",
+    "children": ["flex-layout.col#phone__home--section-one"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#phone__home--section-one": {
+    "title": "Container of sections one",
+    "children": [
+      "image#home__section-one--banner-top",
+      "list-context.image-list#home__section-one--slider-auto",
+      "flex-layout.row#home__section-one--slider-manual"
+    ],
+    "props": {
+      "blockClass": "phone__home---section-one"
+    }
+  },
+  // Banner one
+  "image#home__section-one--banner-top": {
+    "title": "Banner promo",
+    "props": {
+      "blockClass": ["home__section-one--banner-top"],
+      "link": {
+        "openNewTab": true,
+        "title": "Solicitudes Falabella",
+        "url": "https://solicitudes.bancofalabella.com.co/retail/landing/linio?detalleClic=cintillocmr"
+      },
+      "src": "https://i.linio.com/cms/e119c2ac-5d4a-11ec-9d14-2a0b5adc9aa9.webp"
+    }
+  },
+  // slider auto
+  "list-context.image-list#home__section-one--slider-auto": {
+    "title": "Slider of Banners Auto",
+    "children": ["slider-layout#home__section-one--slider-auto"],
+    "props": {
+      "height": 231,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://dynamic-yield.linio.com//api/scripts/8767555/images/1c52bf3b2be18__on_bb_consolasvideojuegos-co_1.jpg",
+          "mobileImage": "https://placeimg.com/640/300/tech",
+          "width": "initial",
+          "link": {
+            "url": "/#"
+          }
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://placeimg.com/640/300/nature",
+          "width": "initial",
+          "link": {
+            "url": "/#"
+          }
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://placeimg.com/640/300/people",
+          "width": "initial"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+          "mobileImage": "https://placeimg.com/640/300/animals",
+          "width": "initial"
+        }
+      ]
+    }
+  },
+  // Slider config
+  "slider-layout#home__section-one--slider-auto": {
+    "title": "Slider Config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": { "timeout": 7000, "stopOnHover": true },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__section-one--slider-auto"
+    }
+  },
+  // slider Manual
+  "flex-layout.row#home__section-one--slider-manual": {
+    "title": "slider categories manual",
+    "children": ["slider-layout#home__section-one--slider-manual"]
+  },
+  "slider-layout#home__section-one--slider-manual": {
+    "title": "Container config and sliders manual",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "home__section-one--slider-manual",
+      "infinite": false,
+      "usePagination": true,
+      "navigationStep": 1,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 1
+    },
+    "children": [
+      "image#home__section-one--category-one",
+      "image#home__section-one--category-two",
+      "image#home__section-one--category-three",
+      "image#home__section-one--category-four",
+      "image#home__section-one--category-five",
+      "image#home__section-one--category-six"
+    ]
+  },
+  "image#home__section-one--category-one": {
+    "title": "manual slider image categorie 1",
+    "props": {
+      "src": "https://fms.linio.com/4b7520d8-9cff-11e9-8af7-0a586460092c.jpeg"
+    }
+  },
+  "image#home__section-one--category-two": {
+    "title": "manual slider image categorie 2",
+    "props": {
+      "src": "https://fms.linio.com/4cc04a26-9cff-11e9-91b2-0a5864600886.jpeg"
+    }
+  },
+  "image#home__section-one--category-three": {
+    "title": "manual slider image categorie 3",
+    "props": {
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/153c251cffdb3__tsc1_home_co.jpg"
+    }
+  },
+  "image#home__section-one--category-four": {
+    "title": "manual slider image categorie 4",
+    "props": {
+      "src": "https://fms.linio.com/4e64b58e-1567-11ea-87c8-12af826db86d.jpeg"
+    }
+  },
+  "image#home__section-one--category-five": {
+    "title": "manual slider image categorie 5",
+    "props": {
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/ce4084b8733__TS2_deportes.jpg"
+    }
+  },
+  "image#home__section-one--category-six": {
+    "title": "manual slider image categorie 6",
+    "props": {
+      "src": "https://fms.linio.com/cf43db26-9ea7-11e9-aed1-0a5864600886.jpeg"
+    }
+  }
+}

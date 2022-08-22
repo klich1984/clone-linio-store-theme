@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#phone__home-section-ten": {
+    "title": "Section to recommended for home",
+    "children": ["flex-layout.col#phone__home--recommended-home"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#phone__home--recommended-home": {
+    "title": "container recommended for home",
+    "children": [
+      "rich-text#home__recommended-home-title",
+      "rich-text#home__recommended-home-carrousel"
+    ]
+  },
+  "rich-text#home__recommended-home-title": {
+    "title": "title recommended section for home",
+    "props": {
+      "font": "t-body",
+      "text": "Para tu casa: Decoración, Muebles y mucho más [Ver más](/#)",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__recommended-home-carrousel": {
+    "title": "Aqui va el carrusel de recomendados para tu casa",
+    "props": {
+      "font": "t-body",
+      "text": "Carrusel de productos recomendados para tu casa",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#phone__home-section-four": {
+    "title": "home-tech-section",
+    "children": ["flex-layout.col#phone__home--tech"],
+    "props": {
+      "blockClass": "home-section"
+    }
+  },
+  "flex-layout.col#phone__home--tech": {
+    "title": "Tech home container",
+    "children": [
+      "rich-text#home__tech--title",
+      "rich-text#home__tech--img-one",
+      "flex-layout.row#home__tech--imgs-bottom"
+    ]
+  },
+  "rich-text#home__tech--title": {
+    "title": "Tech home Title",
+    "props": {
+      "font": "t-body",
+      "text": "Tecnología para tu hogar",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#home__tech--img-one": {
+    "title": "Image one Tech Home",
+    "props": {
+      "font": "t-body",
+      "text": "Imagen 1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home__tech--imgs-bottom": {
+    "title": "Tech home Container images botton",
+    "children": [
+      "flex-layout.col#home__tech--bottom-img-two",
+      "flex-layout.col#home__tech--bottom-img-three"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#home__tech--bottom-img-two": {
+    "title": "Container left Tech home bottom",
+    "children": ["rich-text#home__tech---img-two"]
+  },
+  "rich-text#home__tech---img-two": {
+    "title": "Image left Tech home bottom",
+    "props": {
+      "font": "t-body",
+      "text": "Imagen 2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#home__tech--bottom-img-three": {
+    "title": "Conatiner Right Tech home bottom",
+    "children": ["rich-text#home__tech---img-three"]
+  },
+  "rich-text#home__tech---img-three": {
+    "title": "Image right Tech home bottom",
+    "props": {
+      "font": "t-body",
+      "text": "Imagen 3",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  }
+}
