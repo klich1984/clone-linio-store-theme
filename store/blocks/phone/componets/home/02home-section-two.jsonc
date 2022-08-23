@@ -55,7 +55,10 @@
     }
   },
   "flex-layout.row#home__recommended--product-description": {
-    "children": ["product-summary-name", "product-summary-price"],
+    "children": [
+      "product-summary-name",
+      "rich-text#home__recommended--product-price"
+    ],
     "props": {
       "blockClass": ["home__recommended--product-description"]
     }
@@ -77,6 +80,16 @@
       "centerMode": "to-the-left",
       "centerModeSlidesGap": 1,
       "blockClass": "home__recommended--products"
+    }
+  },
+  "rich-text#home__recommended--product-price": {
+    "props": {
+      "blockClass": ["home__recommended--product-price"],
+      "font": "t-body",
+      "text": "$37000",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
     }
   }
 }
