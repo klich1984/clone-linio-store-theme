@@ -2,3 +2,9 @@
 .imageElement--home__section-one--banner-top {
   max-width: initial;
 }
+
+/* Section three today Promo */
+.imageElement--home__promo-today--img {
+  object-fit: cover;
+  height    : 200px;
+}

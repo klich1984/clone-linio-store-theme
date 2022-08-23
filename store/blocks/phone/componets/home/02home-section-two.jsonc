@@ -21,7 +21,7 @@
     "props": {
       "blockClass": "home__recommended--title",
       "font": "t-body",
-      "text": "### Recomendados para ti",
+      "text": "### Recomendados especialmente para ti",
       "textAlignment": "CENTER",
       "textColor": "c-on-base",
       "textPosition": "LEFT"
