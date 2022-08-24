@@ -8,3 +8,11 @@
   object-fit: cover;
   height    : 200px;
 }
+
+/* Section four Tech Promo */
+.imageElement--home__tech--img-one,
+.imageElement--home__tech--img-two,
+.imageElement--home__tech--img-three {
+  object-fit: cover;
+  height    : 100%;
+}

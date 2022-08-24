@@ -33,4 +33,12 @@
   margin: 0 auto;
 }
 
-/* Section three today Promo */
+/* Section four Tech Promo */
+.flexRowContent--home__tech--imgs-bottom {
+  gap   : 0.5rem;
+  height: 158px;
+}
+
+.flexColChild--phone__home--tech {
+  height: 158px;
+}

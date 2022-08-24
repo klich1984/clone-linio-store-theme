@@ -1,6 +1,11 @@
 /* Section two recommended */
-.heading--home__recommended--title {
+.heading--home__recommended--title,
+.headingLevel3--home__tech--title {
 	font-size     : 1rem;
 	line-height   : 1.5rem;
 	text-transform: uppercase;
+}
+
+.headingLevel3--home__tech--title {
+	margin-bottom: 1rem;
 }

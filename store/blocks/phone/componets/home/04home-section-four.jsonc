@@ -6,34 +6,42 @@
       "blockClass": "home-section"
     }
   },
+
   "flex-layout.col#phone__home--tech": {
     "title": "Tech home container",
     "children": [
       "rich-text#home__tech--title",
-      "rich-text#home__tech--img-one",
+      "image#home__tech--img-one",
       "flex-layout.row#home__tech--imgs-bottom"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone__home--tech"
+    }
   },
+
   "rich-text#home__tech--title": {
     "title": "Tech home Title",
     "props": {
       "font": "t-body",
-      "text": "Tecnología para tu hogar",
-      "textAlignment": "CENTER",
+      "blockClass": "home__tech--title",
+      "text": "### TECNOLOGÍA AL ALCANCE DE TUS MANOS",
       "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "textPosition": "LEFT"
     }
   },
-  "rich-text#home__tech--img-one": {
-    "title": "Image one Tech Home",
+
+  "image#home__tech--img-one": {
+    "title": "Image one Tech promo",
     "props": {
-      "font": "t-body",
-      "text": "Imagen 1",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "src": "https://i.linio.com/cms/d64ebe06-1fcb-11ed-8479-3ae720319da4.webp",
+      "alt": "Promocion de celulares con hasta 40% de descuento",
+      "blockClass": "home__tech--img-one",
+      "link": {
+        "url": "/#"
+      }
     }
   },
+
   "flex-layout.row#home__tech--imgs-bottom": {
     "title": "Tech home Container images botton",
     "children": [
@@ -41,35 +49,42 @@
       "flex-layout.col#home__tech--bottom-img-three"
     ],
     "props": {
+      "blockClass": "home__tech--imgs-bottom",
       "preserveLayoutOnMobile": true
     }
   },
+
   "flex-layout.col#home__tech--bottom-img-two": {
     "title": "Container left Tech home bottom",
-    "children": ["rich-text#home__tech---img-two"]
-  },
-  "rich-text#home__tech---img-two": {
-    "title": "Image left Tech home bottom",
+    "children": ["image#home__tech--img-two"],
     "props": {
-      "font": "t-body",
-      "text": "Imagen 2",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "blockClass": "home__tech--bottom-img-two"
+    }
+  },
+  "image#home__tech--img-two": {
+    "title": "Image one Tech promo",
+    "props": {
+      "src": "https://i.linio.com/cms/ffc23f24-1fcb-11ed-9abe-3ae720319da4.webp",
+      "alt": "Promocion de Computadores con hasta 40% de descuento",
+      "blockClass": "home__tech--img-two",
+      "link": {
+        "url": "/#"
+      }
     }
   },
   "flex-layout.col#home__tech--bottom-img-three": {
     "title": "Conatiner Right Tech home bottom",
-    "children": ["rich-text#home__tech---img-three"]
+    "children": ["image#home__tech--img-three"]
   },
-  "rich-text#home__tech---img-three": {
-    "title": "Image right Tech home bottom",
+  "image#home__tech--img-three": {
+    "title": "Image one Tech promo",
     "props": {
-      "font": "t-body",
-      "text": "Imagen 3",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "src": "https://i.linio.com/cms/00df6620-1fcc-11ed-b97e-3ae720319da4.webp",
+      "alt": "Promocion de Televisores con hasta 40% de descuento",
+      "blockClass": "home__tech--img-three",
+      "link": {
+        "url": "/#"
+      }
     }
   }
 }
