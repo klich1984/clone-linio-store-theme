@@ -42,3 +42,8 @@
 .flexColChild--phone__home--tech {
   height: 158px;
 }
+
+/* Section two Banners Promos */
+.flexCol--phone__home--category-promo {
+  gap: 0.5rem;
+}

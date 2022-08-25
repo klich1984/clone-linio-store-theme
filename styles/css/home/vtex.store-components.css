@@ -16,3 +16,11 @@
   object-fit: cover;
   height    : 100%;
 }
+
+/* Section Six Banners Promo */
+.imageElement--home__category-promo--banner-one,
+.imageElement--home__category-promo--banner-two,
+.imageElement--home__category-promo--banner-three {
+  height    : 158px;
+  object-fit: cover;
+}

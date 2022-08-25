@@ -1,51 +1,63 @@
 {
   "flex-layout.row#phone__home-section-six": {
+    "title": "Home Banners categories promo",
     "children": ["flex-layout.col#phone__home--category-promo"],
     "props": {
       "blockClass": "home-section"
     }
   },
   "flex-layout.col#phone__home--category-promo": {
+    "title": "Banners categories promo containers",
     "children": [
       "flex-layout.row#home__category-promo--banner-one",
       "flex-layout.row#home__category-promo--banner-two",
       "flex-layout.row#home__category-promo--banner-three"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone__home--category-promo"
+    }
   },
   "flex-layout.row#home__category-promo--banner-one": {
-    "children": ["rich-text#home__category-promo--img-one"]
+    "title": "Banner image one container",
+    "children": ["image#home__category-promo--banner-one"]
   },
-  "rich-text#home__category-promo--img-one": {
+  "image#home__category-promo--banner-one": {
+    "title": "Image one categories promo",
     "props": {
-      "font": "t-body",
-      "text": "Banner promoción 1",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/3342c7acae761__ts_1.jpg",
+      "alt": "Promocion de Electrodomesticos con hasta 40% de descuento",
+      "blockClass": "home__category-promo--banner-one",
+      "link": {
+        "url": "/#"
+      }
     }
   },
   "flex-layout.row#home__category-promo--banner-two": {
-    "children": ["rich-text#home__category-promo--img-two"]
+    "title": "Banner image two container",
+    "children": ["image#home__category-promo--banner-two"]
   },
-  "rich-text#home__category-promo--img-two": {
+  "image#home__category-promo--banner-two": {
+    "title": "Image two categories promo",
     "props": {
-      "font": "t-body",
-      "text": "Banner promoción 2",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/15629a8fc7909__ts_2.jpg",
+      "blockClass": "home__category-promo--banner-two",
+      "link": {
+        "url": "/#"
+      }
     }
   },
   "flex-layout.row#home__category-promo--banner-three": {
-    "children": ["rich-text#home__category-promo--img-three"]
+    "title": "Banner image three container",
+    "children": ["image#home__category-promo--banner-three"]
   },
-  "rich-text#home__category-promo--img-three": {
+  "image#home__category-promo--banner-three": {
+    "title": "Image three categories promo",
     "props": {
-      "font": "t-body",
-      "text": "Banner promoción 1",
-      "textAlignment": "CENTER",
-      "textColor": "c-on-base",
-      "textPosition": "CENTER"
+      "src": "https://dynamic-yield.linio.com//api/scripts/8767555/images/123340e7b8747__ts_3.jpg",
+      "blockClass": "home__category-promo--banner-three",
+      "link": {
+        "url": "/#"
+      }
     }
   }
 }
