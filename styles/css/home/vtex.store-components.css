@@ -17,6 +17,11 @@
   height    : 100%;
 }
 
+.imageElement--home__tech--img-one {
+  height       : 158px;
+  margin-bottom: 0.2rem;
+}
+
 /* Section Six Banners Promo */
 .imageElement--home__category-promo--banner-one,
 .imageElement--home__category-promo--banner-two,
