@@ -1,0 +1,8 @@
+.flexRow--main-header-mobile {
+	background-color: var(--bg-color-primary-darck);
+	align-items     : center;
+}
+
+.flexRowContent--main-header-mobile {
+	align-items: center;
+}
