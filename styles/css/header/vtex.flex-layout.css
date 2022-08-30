@@ -1,0 +1,18 @@
+.flexRow--main-header-mobile {
+	background-color: var(--bg-color-primary-darck);
+	align-items     : center;
+}
+
+.flexRowContent--main-header-mobile {
+	align-items: center;
+}
+
+/* User not logged */
+.flexRow--header__menu--user-not-logged {
+	background-color: #eee;
+	padding         : 16px 20px;
+}
+
+.flexRowContent--header__menu--user-not-logged {
+	display: flex;
+}

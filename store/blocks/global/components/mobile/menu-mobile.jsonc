@@ -1,0 +1,393 @@
+{
+  //********** Menu mobile **********//
+  "drawer#header__menu--linio-mobile": {
+    "children": ["menu#mobile__header-menu"],
+    "props": {
+      "blockClass": "header__menu--linio-mobile"
+    }
+  },
+  "menu#mobile__header-menu": {
+    "children": [
+      "flex-layout.row#header__menu--user-not-logged",
+      "menu-item#header__my-account",
+      "menu-item#header__categories"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  //********** Section User not loged **********//
+  "flex-layout.row#header__menu--user-not-logged": {
+    "title": "Container section user not logged",
+    "children": [
+      "flex-layout.col#header__user-not-logged--session",
+      "flex-layout.col#header__user-not-logged--create-account"
+    ],
+    "props": {
+      "blockClass": ["header__menu--user-not-logged"]
+    }
+  },
+  "flex-layout.col#header__user-not-logged--session": {
+    "title": "Container button create login",
+    "children": ["link#header__user-not-logged--session"],
+    "props": {
+      "blockClass": ["header__user-not-logged--session"]
+    }
+  },
+  "link#header__user-not-logged--session": {
+    "title": "Button Create login",
+    "props": {
+      "label": "Iniciar sesión",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary"
+      }
+    }
+  },
+  "flex-layout.col#header__user-not-logged--create-account": {
+    "title": "Container button create account",
+    "children": ["link#header__user-not-logged--create-account"],
+    "props": {
+      "blockClass": ["header__user-not-logged--create-account"]
+    }
+  },
+  "link#header__user-not-logged--create-account": {
+    "title": "Button Create account",
+    "props": {
+      "label": "Crear cuenta",
+      "href": "#",
+      "displayMode": "button"
+    }
+  },
+  //********** My account **********//
+  "menu-item#header__my-account": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Mi cuenta"
+      }
+    },
+    "blocks": ["submenu.accordion#header__my-account"]
+  },
+  "submenu.accordion#header__my-account": {
+    "children": ["menu#header__my-account--menu-items"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#header__my-account--menu-items": {
+    "children": [
+      "menu-item#header__my-account--menu-items-one",
+      "menu-item#header__my-account--menu-items-two",
+      "menu-item#header__my-account--menu-items-three",
+      "menu-item#header__my-account--menu-items-four",
+      "menu-item#header__my-account--menu-items-five",
+      "menu-item#header__my-account--menu-items-six",
+      "menu-item#header__my-account--menu-items-seven",
+      "menu-item#header__my-account--menu-items-eight"
+    ],
+    "props": {
+      "blockClass": "header__my-account--menu-items",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#header__my-account--menu-items-one": {
+    "props": {
+      "blockClass": "my-account__menu-items--jcl",
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis Pedidos"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-two": {
+    "props": {
+      "blockClass": "my-account__menu-items--jcl",
+      "type": "custom",
+      "itemProps": {
+        "text": "CMR Puntos"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-three": {
+    "props": {
+      "blockClass": "my-account__menu-items--jcl",
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis reseñas"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-four": {
+    "props": {
+      "blockClass": ["header__my-account--bb", "my-account__menu-items--jcl"],
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis cupones"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-five": {
+    "props": {
+      "blockClass": "my-account__menu-items--jcl",
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis datos Personales"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-six": {
+    "props": {
+      "blockClass": "my-account__menu-items--jcl",
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis direcciones"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-seven": {
+    "props": {
+      "blockClass": ["header__my-account--bb", "my-account__menu-items--jcl"],
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis Metodos de pagos"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  "menu-item#header__my-account--menu-items-eight": {
+    "props": {
+      "blockClass": ["header__my-account--bb", "my-account__menu-items--jcl"],
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis suscripciones"
+      },
+      "iconProps": {
+        "id": "mpa-heart",
+        "size": 16
+      }
+    }
+  },
+  //********** Categories **********//
+  "menu-item#header__categories": {
+    "props": {
+      "blockClass": "header__categories",
+      "type": "custom",
+      "itemProps": {
+        "text": "Categorias"
+      }
+    },
+    "blocks": ["submenu.accordion#header__categories"]
+  },
+  "submenu.accordion#header__categories": {
+    "children": ["menu#header__categories--menu-items"],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+  "menu#header__categories--menu-items": {
+    "children": [
+      "menu-item#header__categories--menu-items-one",
+      "menu-item#header__categories--menu-items-two",
+      "menu-item#header__categories--menu-items-three",
+      "menu-item#header__categories--menu-items-four",
+      "menu-item#header__categories--menu-items-five",
+      "menu-item#header__categories--menu-items-six",
+      "menu-item#header__categories--menu-items-seven",
+      "menu-item#header__categories--menu-items-eight",
+      "menu-item#header__categories--menu-items-nine",
+      "menu-item#header__categories--menu-items-ten",
+      "menu-item#header__categories--menu-items-eleven",
+      "menu-item#header__categories--menu-items-nine",
+      "menu-item#header__categories--menu-items-ten",
+      "menu-item#header__categories--menu-items-eleven"
+    ],
+    "props": {
+      "blockClass": "header__categories--menu-items",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#header__categories--menu-items-one": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Solo Hoy"
+      },
+      "iconProps": {
+        "id": "hpa-cart",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-two": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Tiendas Oficiales"
+      },
+      "iconProps": {
+        "id": "hpa-delete",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-three": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Celulares"
+      },
+      "iconProps": {
+        "id": "mpa-play",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-four": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "TV, Audio y Video"
+      },
+      "iconProps": {
+        "id": "hpa-location-marker",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-five": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Computación"
+      },
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-six": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Videojuegos"
+      },
+      "iconProps": {
+        "id": "hpa-save",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-seven": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Electrodomésticos"
+      },
+      "iconProps": {
+        "id": "hpa-profile",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-eight": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Hogar"
+      },
+      "iconProps": {
+        "id": "sti-volume-off",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-nine": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Ferretería y Automotriz"
+      },
+      "iconProps": {
+        "id": "sti-volume-on",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-ten": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Moda"
+      },
+      "iconProps": {
+        "id": "mpa-play",
+        "size": 36
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-eleven": {
+    "props": {
+      "blockClass": "categories__menu-item--fcr",
+      "type": "custom",
+      "iconPosition": "right",
+      "itemProps": {
+        "text": "Más"
+      },
+      "iconProps": {
+        "id": "hpa-delete",
+        "size": 36
+      }
+    }
+  }
+}

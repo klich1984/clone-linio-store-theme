@@ -6,9 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -42,14 +40,14 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["logo#header__logo--linio-desktop"]
   },
-  "logo": {
+  "logo#header__logo--linio-desktop": {
     "props": {
-      "title": "Logo",
+      "title": "Logo Descktop",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/img/desktop/header__logo--linio-desktop.svg",
+      "width": "70"
     }
   },
   "header-layout.mobile": {
@@ -60,20 +58,26 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
-      "logo",
+      "drawer#header__menu--linio-mobile",
+      "logo#header__logo--linio-mobile",
       "flex-layout.col#spacer",
-      "login",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "horizontalAlign": "center"
     }
   },
-  "drawer": {
-    "children": []
+  "logo#header__logo--linio-mobile": {
+    "props": {
+      "blockClass": "header__logo--linio-mobile",
+      "title": "Logo mobile",
+      "href": "/",
+      "url": "assets/img/mobile/mobile__header--logo-linio.svg",
+      "width": "40"
+    }
   }
 }
