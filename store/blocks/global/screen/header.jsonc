@@ -255,9 +255,7 @@
     }
   },
   "flex-layout.row#header__categories": {
-    "children": [    
-      "flex-layout.col#header__categories"
-    ]
+    "children": ["flex-layout.col#header__categories"]
   },
   "flex-layout.col#header__categories": {
     "children": ["menu#header__categories__menu-items"]
@@ -265,11 +263,11 @@
   "menu#header__categories__menu-items": {
     "children": [
       "menu-item#header__categories--menu-items-one",
-        "menu-item#header__categories--menu-items-two",
+      "menu-item#header__categories--menu-items-two",
       "menu-item#header__categories--menu-items-one",
-        "menu-item#header__categories--menu-items-two",
+      "menu-item#header__categories--menu-items-two",
       "menu-item#header__categories--menu-items-one",
-        "menu-item#header__categories--menu-items-two"
+      "menu-item#header__categories--menu-items-two"
       //   "menu-item#header__categories--menu-items-three",
       //   "menu-item#header__categories--menu-items-four",
       //   "menu-item#header__categories--menu-items-five",
