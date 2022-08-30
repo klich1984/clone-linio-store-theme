@@ -1,0 +1,7 @@
+.openIconContainer--header__menu--linio-mobile {
+	color: var(--color-white-primary);
+}
+
+.openIconContainer--header__menu--linio-mobile:hover {
+	color: var(--hover-color-red);
+}

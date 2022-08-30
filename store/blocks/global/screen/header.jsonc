@@ -58,7 +58,7 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
+      "drawer#header__menu--linio-mobile",
       "logo#header__logo--linio-mobile",
       "flex-layout.col#spacer",
       "minicart.v2"
@@ -80,10 +80,308 @@
       "width": "40"
     }
   },
-  "drawer": {
-    "children": [],
+  // Menu
+  "drawer#header__menu--linio-mobile": {
+    "children": ["menu#mobile__header-menu"],
     "props": {
-      "blockClass": "my-class"
+      "blockClass": "header__menu--linio-mobile"
+    }
+  },
+  "menu#mobile__header-menu": {
+    "children": [
+      "flex-layout.row#header__menu--user-not-logged",
+      "menu-item#header__my-acount",
+      "menu-item#header__categories"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile__header-menu"
+    }
+  },
+  // Section User not loged
+  "flex-layout.row#header__menu--user-not-logged": {
+    "title": "User not is logged",
+    "children": [
+      "flex-layout.col#header__user-not-logged--session",
+      "flex-layout.col#header__user-not-logged--create-acount"
+    ],
+    "props": {
+      "blockClass": ["header__menu--user-not-logged"]
+    }
+  },
+  "flex-layout.col#header__user-not-logged--session": {
+    "children": ["link#header__user-not-logged--session"],
+    "props": {
+      "blockClass": ["header__user-not-logged--session"]
+    }
+  },
+  "link#header__user-not-logged--session": {
+    "title": "Button Create login",
+    "props": {
+      "label": "Iniciar sesión",
+      "href": "#",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary"
+      }
+    }
+  },
+  "flex-layout.col#header__user-not-logged--create-acount": {
+    "children": ["link#header__user-not-logged--create-acount"],
+    "props": {
+      "blockClass": ["header__user-not-logged--create-acount"]
+    }
+  },
+  "link#header__user-not-logged--create-acount": {
+    "title": "Button Create acount",
+    "props": {
+      "label": "Crear cuenta",
+      "href": "#",
+      "displayMode": "button"
+    }
+  },
+  // My acount
+  "menu-item#header__my-acount": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Mi cuenta"
+      }
+    },
+    "blocks": ["submenu.accordion#header__my-acount"]
+  },
+  "submenu.accordion#header__my-acount": {
+    "children": ["menu#header__my-acount__menu-items"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#header__my-acount__menu-items": {
+    "children": [
+      "menu-item#header__my-acount--menu-items-one",
+      "menu-item#header__my-acount--menu-items-two",
+      "menu-item#header__my-acount--menu-items-three",
+      "menu-item#header__my-acount--menu-items-four",
+      "menu-item#header__my-acount--menu-items-five",
+      "menu-item#header__my-acount--menu-items-six",
+      "menu-item#header__my-acount--menu-items-seven",
+      "menu-item#header__my-acount--menu-items-eight"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#header__my-acount--menu-items-one": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis Pedidos"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-two": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "CMR Puntos"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-three": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis reseñas"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-four": {
+    "props": {
+      "blockClass": ["header__my-acount--bb"],
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis cupones"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-five": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis datos Personales"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-six": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis direcciones"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-seven": {
+    "props": {
+      "blockClass": ["header__my-acount--bb"],
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis Pedimetodos de pagodos"
+      }
+    }
+  },
+  "menu-item#header__my-acount--menu-items-eight": {
+    "props": {
+      "blockClass": ["header__my-acount--bb"],
+      "type": "custom",
+      "itemProps": {
+        "text": "Mis suscripciones"
+      }
+    }
+  },
+  //Categories
+  "menu-item#header__categories": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Categorias"
+      }
+    },
+    "blocks": ["submenu.accordion#header__categories"]
+  },
+  "submenu.accordion#header__categories": {
+    "children": ["flex-layout.row#header__categories"],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+  "flex-layout.row#header__categories": {
+    "children": [    
+      "flex-layout.col#header__categories"
+    ]
+  },
+  "flex-layout.col#header__categories": {
+    "children": ["menu#header__categories__menu-items"]
+  },
+  "menu#header__categories__menu-items": {
+    "children": [
+      "menu-item#header__categories--menu-items-one",
+        "menu-item#header__categories--menu-items-two",
+      "menu-item#header__categories--menu-items-one",
+        "menu-item#header__categories--menu-items-two",
+      "menu-item#header__categories--menu-items-one",
+        "menu-item#header__categories--menu-items-two"
+      //   "menu-item#header__categories--menu-items-three",
+      //   "menu-item#header__categories--menu-items-four",
+      //   "menu-item#header__categories--menu-items-five",
+      //   "menu-item#header__categories--menu-items-six",
+      //   "menu-item#header__categories--menu-items-seven",
+      //   "menu-item#header__categories--menu-items-eight"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#header__categories--menu-items-one": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Solo Hoy"
+      }
+    }
+  },
+  "menu-item#header__categories--menu-items-two": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "text": "Tiendas oficiales"
+      }
+    }
+  },
+  // Level 1
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "type": "internal",
+        "text": "Department One"
+      }
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "submenu.accordion#department__one": {
+    "children": ["menu#department__one"]
+  },
+  // Level 2
+  "menu#department__one": {
+    "children": ["menu-item#category__one", "menu-item#category__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": " category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "text": "SubItem one"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": " category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "text": "SubItem two"
+      }
+    }
+  },
+  // Level 1
+  "menu-item#department__two": {
+    "props": {
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "type": "internal",
+        "text": "Department Two"
+      }
+    },
+    "blocks": ["submenu#department-two"]
+  },
+  "submenu#department-two": {
+    "children": [
+      "menu-item#department__two--category-one",
+      "menu-item#department__two--category-two"
+    ]
+  },
+  // Level 2
+  "menu-item#department__two--category-one": {
+    "props": {
+      "id": "department-two-category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "text": "SubItem three"
+      }
+    }
+  },
+  "menu-item#department__two--category-two": {
+    "props": {
+      "id": "department-two-category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "text": "SubItem four"
+      }
     }
   }
 }
