@@ -1,4 +1,25 @@
-.menuItem--header__my-acount--bb {
+.menuItem--header__my-account--bb {
 	border-bottom: 1px solid #000;
 	width        : 140%;
+}
+
+.menuContainer--header__categories--menu-items {
+	flex-direction: row;
+	flex-wrap     : wrap;
+	gap           : 1rem;
+	margin-bottom : 3rem;
+}
+
+.styledLinkContent--categories__menu-item--fcr {
+	flex-direction: column-reverse;
+	align-items   : center;
+}
+
+.menuItem--categories__menu-item--fcr {
+	width: 45%;
+}
+
+.styledLinkContent--my-account__menu-items--jcl {
+	justify-content: flex-start;
+	padding        : 0.7rem 0;
 }
