@@ -60,6 +60,7 @@
     "children": [
       "drawer#header__menu--linio-mobile",
       "logo#header__logo--linio-mobile",
+      "search-bar#mobile__search",
       "flex-layout.col#spacer",
       "minicart.v2"
     ],
@@ -71,6 +72,14 @@
       "horizontalAlign": "center"
     }
   },
+  // Search Bar
+  "search-bar#mobile__search": {
+    "props": {
+      "placeholder": "Buscar Productos",
+      "displayMode": "search-button"
+    }
+  },
+  // Logo
   "logo#header__logo--linio-mobile": {
     "props": {
       "blockClass": "header__logo--linio-mobile",
