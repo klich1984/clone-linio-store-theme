@@ -74,9 +74,11 @@
   },
   // Search Bar
   "search-bar#mobile__search": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "placeholder": "Buscar Productos",
-      "displayMode": "search-button"
+      "displayMode": "search-button",
+      "openAutocompleteOnFocus": true
     }
   },
   // Logo

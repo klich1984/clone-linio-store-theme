@@ -3,6 +3,7 @@
     "blocks": [
       "flex-layout.row#phone__home-section-one",
       "flex-layout.row#phone__home-section-two",
+      // "icon#icon__tests",
       "flex-layout.row#phone__home-section-three",
       "flex-layout.row#phone__home-section-four",
       "flex-layout.row#phone__home-section-five",
@@ -15,5 +16,12 @@
       "flex-layout.row#phone__home-section-fourteen",
       "flex-layout.row#phone__home-section-fifteen"
     ]
+  },
+  "icon#icon__tests": {
+    "props": {
+      "id": "linio-cart",
+      "size": 46,
+      "isActive": true
+    }
   }
 }
