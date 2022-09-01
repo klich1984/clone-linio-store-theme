@@ -2,25 +2,29 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
+  "footer-layout.desktop": {
+    "children": ["rich-text#footer__text--desktop"]
   },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+  "rich-text#footer__text--desktop": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": ["footer__text--desktop"],
+      "font": "t-body",
+      "text": "Desktop",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
     }
+  },
+  "footer-layout.mobile": {
+    "children": ["disclosure-layout-group#footer__group"]
+  },
+  "disclosure-layout-group#footer__group": {
+    "title": "Menús del footer",
+    "children": [
+      "disclosure-layout#group__about-us",
+      "disclosure-layout#customer-service",
+      "disclosure-layout#linio-latam",
+      "disclosure-layout#newness"
+    ]
   }
 }
