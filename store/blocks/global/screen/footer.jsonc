@@ -16,7 +16,16 @@
     }
   },
   "footer-layout.mobile": {
-    "children": ["disclosure-layout-group#footer__group"]
+    "children": ["flex-layout.row#footer__group"]
+  },
+  "flex-layout.row#footer__group": {
+    "children": ["flex-layout.col#footer__group"]
+  },
+  "flex-layout.col#footer__group": {
+    "children": ["disclosure-layout-group#footer__group"],
+    "props": {
+      "blockClass": "footer__group--container"
+    }
   },
   "disclosure-layout-group#footer__group": {
     "title": "Menús del footer",

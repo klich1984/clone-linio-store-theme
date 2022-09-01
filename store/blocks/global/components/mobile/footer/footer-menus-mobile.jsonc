@@ -8,11 +8,15 @@
     ]
   },
   "disclosure-trigger#group__about-us": {
+    "props": {
+      "blockClass": "trigger__group--button"
+    },
     "children": ["rich-text#group__about-us--title"]
   },
   "rich-text#group__about-us--title": {
     "title": "Titulo Acerca de nosotros",
     "props": {
+      "blockClass": "footer__menu--title",
       "text": "ACERCA DE LINIO"
     }
   },
@@ -29,11 +33,15 @@
     ]
   },
   "disclosure-trigger#customer-service": {
+    "props": {
+      "blockClass": "trigger__group--button"
+    },
     "children": ["rich-text#customer-service--title"]
   },
   "rich-text#customer-service--title": {
     "title": "Titulo Servicio al cliente",
     "props": {
+      "blockClass": "footer__menu--title",
       "text": "SERVICIO AL CLIENTE"
     }
   },
@@ -50,11 +58,15 @@
     ]
   },
   "disclosure-trigger#linio-latam": {
+    "props": {
+      "blockClass": "trigger__group--button"
+    },
     "children": ["rich-text#linio-latam"]
   },
   "rich-text#linio-latam": {
     "title": "Titulo Linio Latinoamérica",
     "props": {
+      "blockClass": "footer__menu--title",
       "text": "LINIO LATINOAMÉRICA"
     }
   },
@@ -68,11 +80,15 @@
     "children": ["disclosure-trigger#newness", "disclosure-content#newness"]
   },
   "disclosure-trigger#newness": {
+    "props": {
+      "blockClass": "trigger__group--button"
+    },
     "children": ["rich-text#newness"]
   },
   "rich-text#newness": {
     "title": "Titulo Novedades",
     "props": {
+      "blockClass": "footer__menu--title",
       "text": "NOVEDADES"
     }
   },
