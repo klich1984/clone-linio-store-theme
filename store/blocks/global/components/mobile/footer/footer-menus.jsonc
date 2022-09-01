@@ -11,6 +11,7 @@
       "menu-item#about-us__menu--protection"
     ],
     "props": {
+      "blockClass": "group__about-us--menu-001",
       "orientation": "vertical"
     }
   },
