@@ -1,0 +1,65 @@
+{
+  // first level
+  "menu#group__about-us--menu-001": {
+    "title": "Menú Acerca",
+    "children": [
+      // "rich-text#about-us__menu--title",
+      "menu-item#about-us__menu--about-us",
+      "menu-item#about-us__menu--social-responsability",
+      "menu-item#about-us__menu--terms",
+      "menu-item#about-us__menu--intellectual-property",
+      "menu-item#about-us__menu--protection"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Second level
+  "menu#customer-service--menu-002": {
+    "title": "Menú Servicio sl Cliente",
+    "children": [
+      // "rich-text#about-us__menu--title",
+      "menu-item#customer-service__menu--frequent-questions",
+      "menu-item#customer-service__menu--warranty",
+      "menu-item#customer-service__menu--status-collection",
+      "menu-item#customer-service__menu--personal-data-authorization",
+      "menu-item#customer-service__menu--terms-conditions"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Third level
+  "menu#linio-latam--menu-003": {
+    "title": "Menú Linio LATAM",
+    "children": [
+      // "rich-text#about-us__menu--title",
+      "menu-item#linio-latam__menu--Col",
+      "menu-item#linio-latam__menu--Chi",
+      "menu-item#linio-latam__menu--MX",
+      "menu-item#linio-latam__menu--PER"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  // Four level
+  "menu#newness--menu-004": {
+    "title": "Menú Novedades",
+    "children": [
+      // "rich-text#about-us__menu--title",
+      "menu-item#newness__menu--cyber-monday",
+      "menu-item#newness__menu--iphone",
+      "menu-item#newness__menu--today-offers",
+      "menu-item#newness__menu--food",
+      "menu-item#newness__menu--holiday-calendar",
+      "menu-item#newness__menu--lifemiles"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

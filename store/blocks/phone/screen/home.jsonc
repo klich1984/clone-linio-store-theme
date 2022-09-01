@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#phone__home-section-one",
       "flex-layout.row#phone__home-section-two",
-      // "icon#icon__tests",
+      // "icon#icon__cart",
       "flex-layout.row#phone__home-section-three",
       "flex-layout.row#phone__home-section-four",
       "flex-layout.row#phone__home-section-five",
@@ -14,14 +14,62 @@
       "flex-layout.row#phone__home-section-ten",
       "flex-layout.row#phone__home-section-eleven",
       "flex-layout.row#phone__home-section-fourteen",
-      "flex-layout.row#phone__home-section-fifteen"
+      "flex-layout.row#phone__home-section-fifteen",
+      "search-result-layout.customQuery#home__search"
     ]
   },
-  "icon#icon__tests": {
+  "icon#icon__cart": {
     "props": {
       "id": "linio-cart",
-      "size": 46,
+      "size": 36,
       "isActive": true
     }
+  },
+  "search-result-layout.customQuery#home__search": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["rich-text#home__test"]
+  },
+  "rich-text#home__test": {
+    "title": "Example search result",
+    "props": {
+      "font": "t-body",
+      "text": "Hello",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": ["flex-layout.row#home__results"]
+  },
+  "flex-layout.row#home__results": {
+    "children": ["flex-layout.col#home__result--search"],
+    "props": {
+      "blockClass": ["home__results"]
+    }
+  },
+  "flex-layout.col#home__result--search": {
+    "children": ["search-content#home__result--search"],
+    "props": {
+      "blockClass": ["home__result--search"]
+    }
+  },
+  "search-content#home__result--search": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
   }
 }

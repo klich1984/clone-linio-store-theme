@@ -1,0 +1,309 @@
+{
+  // first level
+  "menu-item#about-us__menu--about-us": {
+    "props": {
+      "id": "menu-item-01",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "¿Quiénes Somos?",
+        "text": "¿Quiénes Somos?"
+      }
+    }
+  },
+  "menu-item#about-us__menu--social-responsability": {
+    "props": {
+      "id": "menu-item-02",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/responsabilidad-social",
+        "noFollow": false,
+        "tagTitle": "Responsabilidad Social",
+        "text": "Responsabilidad Social"
+      }
+    }
+  },
+  "menu-item#about-us__menu--terms": {
+    "props": {
+      "id": "menu-item-03",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos",
+        "noFollow": false,
+        "tagTitle": "Términos de uso",
+        "text": "Términos de uso"
+      }
+    }
+  },
+  "menu-item#about-us__menu--intellectual-property": {
+    "props": {
+      "id": "menu-item-04",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/propiedad-intelectual",
+        "noFollow": false,
+        "tagTitle": "Protección de propiedad intelectual",
+        "text": "Protección de propiedad intelectual"
+      }
+    }
+  },
+  "menu-item#about-us__menu--protection": {
+    "props": {
+      "id": "menu-item-05",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ventascorporativas",
+        "noFollow": false,
+        "tagTitle": "Ventas Corporativas",
+        "text": "Ventas Corporativas"
+      }
+    }
+  },
+
+  // Second level
+  "menu-item#customer-service__menu--frequent-questions": {
+    "props": {
+      "id": "menu-item-06",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#customer-service__menu--warranty": {
+    "props": {
+      "id": "menu-item-07",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Garantias",
+        "noFollow": false,
+        "tagTitle": "Aplicar mi Garantia",
+        "text": "Aplicar mi Garantia"
+      }
+    }
+  },
+  "menu-item#customer-service__menu--status-collection": {
+    "props": {
+      "id": "menu-item-08",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#customer-service__menu--personal-data-authorization": {
+    "props": {
+      "id": "menu-item-09",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/recoleccionIL/Consulta",
+        "noFollow": false,
+        "tagTitle": "Estado de mi recolección",
+        "text": "Estado de mi recolección"
+      }
+    }
+  },
+  "menu-item#customer-service__menu--terms-conditions": {
+    "props": {
+      "id": "menu-item-10",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacidad",
+        "noFollow": false,
+        "tagTitle": "Autorización para el Tratamiento de mis Datos Personales",
+        "text": "Autorización para el Tratamiento de mis Datos Personales"
+      }
+    }
+  },
+
+  // Third level
+  "menu-item#linio-latam__menu--Col": {
+    "props": {
+      "id": "menu-item-11",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.linio.com.co",
+        "noFollow": false,
+        "tagTitle": "Colombia",
+        "text": "Colombia"
+      }
+    }
+  },
+  "menu-item#linio-latam__menu--Chi": {
+    "props": {
+      "id": "menu-item-12",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.linio.cl/",
+        "noFollow": false,
+        "tagTitle": "Chile",
+        "text": "Chile"
+      }
+    }
+  },
+  "menu-item#linio-latam__menu--MX": {
+    "props": {
+      "id": "menu-item-13",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.linio.com.mx/",
+        "noFollow": false,
+        "tagTitle": "México",
+        "text": "México"
+      }
+    }
+  },
+  "menu-item#linio-latam__menu--PER": {
+    "props": {
+      "id": "menu-item-14",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.linio.com.pe",
+        "noFollow": false,
+        "tagTitle": "Perú",
+        "text": "Perú"
+      }
+    }
+  },
+
+  // Four level
+  "menu-item#newness__menu--cyber-monday": {
+    "props": {
+      "id": "menu-item-15",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/cyberlunes",
+        "noFollow": false,
+        "tagTitle": "CyberLunes",
+        "text": "CyberLunes"
+      }
+    }
+  },
+  "menu-item#newness__menu--iphone": {
+    "props": {
+      "id": "menu-item-16",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/iphone",
+        "noFollow": false,
+        "tagTitle": "iphone",
+        "text": "iphone"
+      }
+    }
+  },
+  "menu-item#newness__menu--today-offers": {
+    "props": {
+      "id": "menu-item-17",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/solo-hoy-ofertas",
+        "noFollow": false,
+        "tagTitle": "Solo Hoy Ofertas",
+        "text": "Solo Hoy Ofertas"
+      }
+    }
+  },
+  "menu-item#newness__menu--food": {
+    "props": {
+      "id": "menu-item-18",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/despensa-vinos-y-gourmet",
+        "noFollow": false,
+        "tagTitle": "Despensa, vinos y gourmet",
+        "text": "Despensa, vinos y gourmet"
+      }
+    }
+  },
+  "menu-item#newness__menu--holiday-calendar": {
+    "props": {
+      "id": "menu-item-19",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/dias-festivos-colombia",
+        "noFollow": false,
+        "tagTitle": "Calendario Días Festivos",
+        "text": "Calendario Días Festivos"
+      }
+    }
+  },
+  "menu-item#newness__menu--lifemiles": {
+    "props": {
+      "id": "menu-item-20",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menus-items-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "lifemiles",
+        "noFollow": false,
+        "tagTitle": "LifeMiles",
+        "text": "LifeMiles"
+      }
+    }
+  }
+}
