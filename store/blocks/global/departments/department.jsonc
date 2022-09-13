@@ -1,0 +1,115 @@
+{
+  "search-result-layout.mobile#mobile__department": {
+    "children": [
+      // "responsive-layout.tablet#tablet__department",
+      "responsive-layout.phone#phone__department"
+    ]
+  },
+  "responsive-layout.phone#phone__department": {
+    "children": ["flex-layout.row#category__results"]
+  },
+  "flex-layout.row#category__results": {
+    "children": [
+      "flex-layout.col#category__results--filter",
+      "flex-layout.col#category__results--content"
+    ]
+  },
+  "flex-layout.col#category__results--filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": ["category__results--filter"],
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#category__results--content": {
+    "children": ["search-content#results__content--products"],
+    "props": {
+      "blockClass": ["category__results--content"],
+      "width": "75%"
+    }
+  },
+  "search-content#results__content--products": {
+    "blocks": ["gallery#department", "not-found"]
+  },
+  "gallery#department": {
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#search"
+    }
+  },
+
+  "search-result-layout#desktop__department": {
+    "blocks": [
+      "search-result-layout.desktop#desktop__department"
+      // "search-result-layout.mobile#department",
+      // "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#desktop__department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#category__results"
+    ]
+  },
+
+  "flex-layout.row#department__breadcrumb": {
+    "children": ["flex-layout.col#department__breadcrunb"],
+    "props": {
+      "blockClass": ["department__breadcrumb"]
+    }
+  },
+  "flex-layout.col#department__breadcrunb": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": ["department__breadcrunb"]
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+
+  // "search-result-layout.mobile#department": {
+  //   "children": [
+  //     "flex-layout.row#department__breadcrumb",
+  //     "flex-layout.row#department__result"
+  //   ]
+  // },
+  // "flex-layout.row#department__result": {
+  //   "title": "Departemnt results",
+  //   "children": ["gallery-layout-switcher", "search-content#phone"],
+  //   "props": {
+  //     "blockClass": ["department__result"]
+  //   }
+  // },
+  // "gallery-layout-switcher": {
+  //   "children": [
+  //     "gallery-layout-option#grid__two-columns",
+  //     "gallery-layout-option#grid__one-column"
+  //   ]
+  // },
+  // "gallery-layout-option#grid__two-columns": {
+  //   "props": {
+  //     "name": "grid-two-columns",
+  //     "blockClass": "grid__selector--two-columns"
+  //   }
+  // },
+  // "gallery-layout-option#grid__one-column": {
+  //   "props": {
+  //     "name": "grid-one-column",
+  //     "blockClass": "grid__selector--one-column"
+  //   }
+  // }
+}

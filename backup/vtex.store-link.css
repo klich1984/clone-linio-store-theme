@@ -1,0 +1,11 @@
+.link--header__my-orders {
+  text-decoration: none;
+  color: var(--emphasis);
+  font-family: "Lato",sans-serif;
+  text-transform: capitalize;
+}
+
+.link--header__my-orders:hover {
+  color: #ad1ac7;
+  text-decoration: underline;
+}

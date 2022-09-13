@@ -1,7 +1,94 @@
 {
   "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
     "blocks": [
-      
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
     ]
+  },
+  "product-summary.shelf#search": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "add-to-cart-button"
+      // "product-summary-buy-button" no se usa por que no agrega al minicart automaticamnete
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "displayMode": "select"
+    }
   }
+
+  // "search-result-layout.desktop": {
+  //   "children": ["rich-text#desktop-response"]
+  // },
+  // "search-result-layout.mobile": {
+  //   "children": ["rich-text#mobile-response"]
+  // },
+  // "rich-text#desktop-response": {
+  //   "props": {
+  //     "blockClass": ["desktop-response"],
+  //     "font": "t-body",
+  //     "text": "# Descktop search",
+  //     "textAlignment": "CENTER",
+  //     "textColor": "c-on-base",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
+  // "rich-text#mobile-response": {
+  //   "props": {
+  //     "blockClass": ["mobile-response"],
+  //     "font": "t-body",
+  //     "text": "# Mobile search",
+  //     "textAlignment": "CENTER",
+  //     "textColor": "c-on-base",
+  //     "textPosition": "CENTER"
+  //   }
+  // }
 }
