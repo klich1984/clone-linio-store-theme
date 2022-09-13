@@ -1,0 +1,86 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      // "flex-layout.row#global__header--top-banner",
+      "flex-layout.row#global__header-telemarketing",
+      "flex-layout.row#global__header--user-widget",
+      "sticky-layout#desktop__header"
+    ]
+  },
+
+  "flex-layout.row#global__header-telemarketing": {
+    "children": ["telemarketing"]
+  },
+  "telemarketing": {},
+
+  "flex-layout.row#global__header--user-widget":{
+    "children":[
+      "b2b-user-widget"
+    ],
+    "props": {
+      "blockClass": "global__header--user-widget",
+      "title": "Component b2b user widget",
+      "fullWidth": true
+    }
+  },
+
+  "sticky-layout#desktop__header": {
+    "props": {
+      "blockClass": "desktop__header"
+    },
+    "children": [
+      "flex-layout.row#desktop__header--container-header",
+      "flex-layout.row#desktop__header--menu"
+    ]
+  },
+  "flex-layout.row#desktop__header--container-header": {
+    "title": "Header Desktop",
+    "children": [
+      "flex-layout.col#logo",
+      // "search-bar#desktop__header--searchbar",
+      "flex-layout.col#desktop__header--searchbar",
+      "flex-layout.col#desktop__header--my-orders",
+      "challenge-block#desktop__description",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "desktop__header--container-header"
+    }
+  },
+  "flex-layout.col#logo": {
+    "props": {
+      "blockClass": "header__container-header--logo"
+    },
+    "children": ["logo#global__header--logo"]
+  },
+  "flex-layout.col#desktop__header--searchbar": {
+    "children": [
+      "search-bar#desktop__header--searchbar"
+    ],
+    "props": {
+      "blockClass": "desktop__header--searchbar",
+      "width": "50%"
+    }
+  },
+  "search-bar#desktop__header--searchbar": {
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "placeholder": "Busca en ITGlobers"
+    }
+  },
+  "flex-layout.col#desktop__header--my-orders": {
+    "children": [
+      "link#header__my-orders"
+    ],
+    "props": {
+      "blockClass": "header__my-orders"
+    }
+  },
+  "link#header__my-orders": {
+    "props": {
+      "label": "my orders",
+      "href": "/",
+      "blockClass": "header__my-orders"
+    }
+  }
+}

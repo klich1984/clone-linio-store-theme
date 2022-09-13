@@ -1,7 +1,15 @@
 {
   "store.product": {
-    "children": [
-      
-    ]
+    "children": ["rich-text#Desktop__product--title"]
+  },
+  "rich-text#Desktop__product--title": {
+    "props": {
+      "blockClass": ["Desktop__product--title"],
+      "font": "t-body",
+      "text": "Pagína de Producto",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
   }
 }

@@ -1,0 +1,77 @@
+.flexCol--header__container-header--logo {
+  width: 130px !important;
+  height: 60px;
+}
+
+.flexRow--desktop__category--list {
+  max-width: 100%;
+  width: 100%;
+}
+
+.flexColChild--desktop__header--searchbar :global(.vtex-store-components-3-x-searchBarContainer) {
+  padding-top: 15px;
+}
+
+.flexCol--header__my-orders {
+  text-align: center;
+}
+
+.flexCol--header__top-banner--image
+  :global(.vtex-store-components-3-x-imageElement--top-banner__image) {
+  width: 100% !important;
+}
+.flexCol--outlet__banner-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.flexRow--desktop__header {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flexRowContent--desktop__header--container-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+.flexRowContent--mobile__header--container {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+
+.flexRow--desktop__header--container-header {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--category__list {
+  width: 1044px;
+}
+
+.flexCol--mobile--logo-container {
+  width: 135px !important;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .flexCol--top-banner__image
+    :global(.vtex-store-components-3-x-imageElement--top-banner__image) {
+    height: 160px;
+  }
+}
+@media (min-width: 1000px) {
+  .flexColChild--category__list--item {
+    height: 0 !important;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .flexCol--top-banner__image
+    :global(.vtex-store-components-3-x-imageElement--top-banner__image) {
+    height: 217px;
+  }
+}
